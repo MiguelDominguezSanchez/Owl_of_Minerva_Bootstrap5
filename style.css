@@ -216,7 +216,7 @@ header ul li a.active
 
 /*  */
 
-section
+#parallax
 {
   position: relative;
   width: 100%;
@@ -227,7 +227,7 @@ section
   align-items: center;
   overflow: hidden;
 }
-section::before
+#parallax::before
 {
   content: '';
   position: absolute;
@@ -237,7 +237,7 @@ section::before
   background: linear-gradient(to top,#1c0522, transparent );
   z-index: 1000;
 }
-section img
+#parallax img
 {
   position: absolute;
   top: 0;
@@ -247,31 +247,31 @@ section img
   object-fit: cover;
   pointer-events: none;
 }
-section img#moon
+#parallax img#moon
 {
   /* mix-blend-mode: screen;  */
 }
-section img#mountain_front
+#parallax img#mountain_front
 {
   /* z-index: 10; */
 }
-section img#firtree1
+#parallax img#firtree1
 {
   z-index: 10;
 }
-section img#firtree2
+#parallax img#firtree2
 {
   z-index: 10;
 }
-section img#firtree3
+#parallax img#firtree3
 {
   z-index: 10;
 }
-section img#firtree4
+#parallax img#firtree4
 {
   z-index: 10;
 }
-section img#shrubs
+#parallax img#shrubs
 {
   z-index: 10;
 }
