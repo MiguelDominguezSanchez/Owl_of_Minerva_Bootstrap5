@@ -1,4 +1,146 @@
+/* ///////////////////////// Fonts */
+
+/* Cinzel */
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+
+/* Arista */
+
+@font-face {}
+
+
+/* Inconsolata */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap'); */
+
+/*  */
+
+.cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+
+/*  */
+
+.arista {}
+
+/*  */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+/* ///////////////////////// Color Palette */
+
+/* Color Palette */
+
+/* blue */
+
+/* 
+Dark Blue
+HEX: #1A1832 
+*/
+
+/* orange */
+
+/*
+Dark Medium Brown 
+HEX: #F49731
+*/
+
+/* Background Colors */
+
+/* Blue */
+
+.DarkBlueBG{
+background-color: #1A1832;
+}
+
+/* Orange */
+
+.MediumOrangeBG{
+background-color: #F49731;
+}
+
+
+
+/*  */
+
+/* Typography Colors */
+
+/* Blue */
+
+.DarkBlueTypo{
+  color: #1A1832;
+  }
+  
+  /* Orange */
+  
+  .MediumOrangeTypo{
+  color: #F49731;
+  }
+  
+  /*  */
+
+  /* General */
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background: url('../../assets/img/bg/tile.svg') top left repeat;
+    text-align: left;
+}
+
+a {
+  color: #FDFAE0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5F5D4A;
+  text-decoration: none;
+}
+
+.btn-primary{
+  background-color: #FDFAE0;
+  color: #32361C;
+  border: none;
+}
+
+.btn-primary:hover{
+  background-color: #32361C;
+  color:  #FDFAE0;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #32361C;
+  color:  #FDFAE0;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #FDFAE0;
+  color: #32361C;
+  border: none;
+}
+
+.btn-dark {
+  background-color: #3A2C15;
+  color:  #FDFAE0;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #FDFAE0;
+  color: #3A2C15;
+  border: none;
+}
+
+/*  */
+
 *
 {
   margin: 0;
@@ -11,7 +153,7 @@ body
 {
   min-height: 100vh;
   overflow-x: hidden;
-  background: linear-gradient(#2b1055,#7597de);
+  background: linear-gradient(#1A1832,#7597de);
 
 }
 
@@ -161,3 +303,6 @@ section img#shrubs
   font-size: 1.2em;
   color: #fff;
 }
+
+/*  */
+
