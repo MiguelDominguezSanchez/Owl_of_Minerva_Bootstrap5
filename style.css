@@ -89,7 +89,7 @@ background-color: #F49731;
   body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    background: url('../../assets/img/bg/tile.svg') top left repeat;
+    background: url('img/bg/tile.svg') top left repeat;
     text-align: left;
 }
 
@@ -102,6 +102,10 @@ a:hover {
   color: #5F5D4A;
   text-decoration: none;
 }
+
+/* link:hover {
+  color: #F49731 !important;
+} */
 
 .btn-primary{
   background-color: #FDFAE0;
@@ -138,6 +142,12 @@ a:hover {
   color: #3A2C15;
   border: none;
 }
+
+/* Navbar */
+
+/* .nav-item{
+  color: #F49731 !important;
+} */
 
 /*  */
 
