@@ -5,18 +5,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>parallax Scrolling Website | Vanilla Javascript</title>
+  <!-- Custom Style -->
   <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap5 css -->
+  <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
+
   <header>
-    <a href="#" class="logo">Logo</a>
-    <ul>
-      <li><a href="#" class="active">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Work</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top LightBrownBG">
+      <div class="container-fluid">
+
+        <a class="navbar-brand archive-garamond-bold uppercase DarkBrownTypo" href="#">
+          <img src="img/logo/Monogram.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          Owl of Minerva
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse archive-garamond-pro uppercase" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section7">Youtube</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section8">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section11">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
   </header>
+
   <section>
     <img src="img/stars.png" alt="" id="stars">
     <img src="img/stars1.png" alt="" id="stars1">

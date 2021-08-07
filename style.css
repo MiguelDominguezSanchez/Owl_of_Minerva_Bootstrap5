@@ -14,7 +14,10 @@ body
   background: linear-gradient(#2b1055,#7597de);
 
 }
-header
+
+/*  */
+
+/* header
 {
   position: absolute;
   top: 0;
@@ -57,7 +60,10 @@ header ul li a.active
 {
   background: #fff;
   color: #2b1055;
-}
+} */
+
+/*  */
+
 section
 {
   position: relative;
