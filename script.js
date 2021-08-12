@@ -16,6 +16,7 @@ let firtree2 = document.getElementById('firtree2')
 let firtree3 = document.getElementById('firtree3')
 let firtree4 = document.getElementById('firtree4')
 let shrubs = document.getElementById('shrubs')
+let owl = document.getElementById('owl')
 let header = document.querySelector('header')
 
 window.addEventListener('scroll', function () {
@@ -36,6 +37,9 @@ window.addEventListener('scroll', function () {
 	firtree3.style.top = value * 1 + 'px'
 	firtree4.style.top = value * 2 + 'px'
 	shrubs.style.bottom = value * 1 + 'px'
+
+	owl.style.top = value * -0.5 + 'px'
+
 	// clouds.style.marginRight = value * 4 + 'px'
 	// clouds.style.marginTop = value * 1.5 + 'px'
 	clouds.style.left = value * 2 + 'px'

@@ -589,6 +589,8 @@ a {
 
 .card-text {
   text-align: center;
+  font-family: 'Roboto';
+
 }
 
 .border-radious-50 {
@@ -631,6 +633,20 @@ a {
 /* Social MA Above */
 
 /*///////////////////*/	/* LOREM IPSUM */
+
+/* navbar */
+
+/* .navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+} */
+
+.navbar-wordmark {
+  font-weight: 300;
+  -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0) !important;
+}
+
+
+
 
 /*///////////////////*/	/* LOREM IPSUM */
 
