@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
 
+/* Cinzel Decorative */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
 
 /* Arista */
 
@@ -18,6 +22,10 @@
 
 .cinzel {
   font-family: 'Cinzel', serif;
+}
+
+.cinzel-decorative {
+  font-family: 'Cinzel Decorative', cursive;
 }
 
 
@@ -151,12 +159,14 @@ a:hover {
 
 /*  */
 
+
+
 *
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Cinzel', serif;
+  /* font-family: 'Cinzel', serif; */
   scroll-behavior: smooth;
 }
 body
@@ -455,3 +465,7 @@ header ul li a.active
 .items {
 	padding: 0;
 }
+
+/* Collaborators */
+
+#collaborators .card-text {}

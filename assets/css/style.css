@@ -37,6 +37,11 @@ header,
     /*background: #39448c !important;*/
     background: transparent !important;
   }
+
+  #collaborators .card-text {
+    display: none;
+  }
+
 }
 
 h6 {
